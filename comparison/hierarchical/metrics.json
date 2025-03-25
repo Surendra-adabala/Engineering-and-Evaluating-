@@ -1,0 +1,105 @@
+{
+    "hierarchical": {
+        "accuracy": [
+            0.72,
+            0.8235294117647058
+        ],
+        "f1_macro": [
+            0.6183150183150183,
+            0.45161290322580644
+        ],
+        "f1_weighted": [
+            0.7090989010989012,
+            0.7969639468690702
+        ],
+        "groups": {
+            "AppGallery & Games ": {
+                "base": {
+                    "accuracy": 0.72,
+                    "precision": 0.7066666666666667,
+                    "recall": 0.72,
+                    "f1_macro": 0.6183150183150183,
+                    "f1_weighted": 0.7090989010989012,
+                    "class_report": {
+                        "Others": {
+                            "precision": 0.8333333333333334,
+                            "recall": 0.7142857142857143,
+                            "f1-score": 0.7692307692307693,
+                            "support": 7.0
+                        },
+                        "Problem/Fault": {
+                            "precision": 0.75,
+                            "recall": 0.8571428571428571,
+                            "f1-score": 0.8,
+                            "support": 14.0
+                        },
+                        "Suggestion": {
+                            "precision": 0.3333333333333333,
+                            "recall": 0.25,
+                            "f1-score": 0.2857142857142857,
+                            "support": 4.0
+                        },
+                        "accuracy": 0.72,
+                        "macro avg": {
+                            "precision": 0.638888888888889,
+                            "recall": 0.6071428571428571,
+                            "f1-score": 0.6183150183150183,
+                            "support": 25.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.7066666666666667,
+                            "recall": 0.72,
+                            "f1-score": 0.7090989010989012,
+                            "support": 25.0
+                        }
+                    }
+                }
+            },
+            "In-App Purchase ": {
+                "base": {
+                    "accuracy": 0.8235294117647058,
+                    "precision": 0.7720588235294118,
+                    "recall": 0.8235294117647058,
+                    "f1_macro": 0.45161290322580644,
+                    "f1_weighted": 0.7969639468690702,
+                    "class_report": {
+                        "Problem/Fault": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 2.0
+                        },
+                        "Suggestion": {
+                            "precision": 0.875,
+                            "recall": 0.9333333333333333,
+                            "f1-score": 0.9032258064516129,
+                            "support": 15.0
+                        },
+                        "accuracy": 0.8235294117647058,
+                        "macro avg": {
+                            "precision": 0.4375,
+                            "recall": 0.4666666666666667,
+                            "f1-score": 0.45161290322580644,
+                            "support": 17.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.7720588235294118,
+                            "recall": 0.8235294117647058,
+                            "f1-score": 0.7969639468690702,
+                            "support": 17.0
+                        }
+                    }
+                }
+            }
+        },
+        "avg_accuracy": 0.7717647058823529,
+        "avg_f1_macro": 0.5349639607704124,
+        "avg_f1_weighted": 0.7530314239839857
+    },
+    "chained": {
+        "accuracy": [],
+        "f1_macro": [],
+        "f1_weighted": [],
+        "groups": {}
+    }
+}
