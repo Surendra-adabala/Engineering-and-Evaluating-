@@ -139,7 +139,7 @@ The Hierarchical Modeling approach provides better accuracy and interpretability
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Surendra-adabala/Engineering-and-Evaluating-)
 cd Email_Classification_System
 ```
 
